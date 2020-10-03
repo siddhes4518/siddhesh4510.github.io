@@ -9,17 +9,19 @@
 }
 header{
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(1.jpg);
-    height: 150vh;
+    height: 130vh;
+    width:max-content;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     position: relative;
+    width: fit-content;
 }
 
 .nav-area{
     float: right;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 240px;
 }
 .nav-area li{
     display: inline-block;
@@ -38,11 +40,14 @@ text-transform: uppercase;
 }
 .logos{
     float: left;
+    width: 228;
 }
 .logos img{
     width: 20%;
-     height: 24%;
+    height: 14%;
     padding: 55px 0;
+    margin-left: 70;
+    margin-top: 30;
 }
 .logo{
     float: left;
@@ -51,15 +56,14 @@ text-transform: uppercase;
     width: 20%;
      height: 4%;
     padding: 55px 0;
+    margin-left:100;
+    margin-top:145;
 }
 .logoh{
     float: left;
+    width: 40%;
 }
-.logoh img{
-    width: 25%;
-     height: 10%;
-    padding: 20px 0;
-}
+.logoh img{width: 25%;padding: 20px 0;margin-left: 10;margin-top: 70;}
 
 .welcome-text{
     position: absolute;
@@ -67,18 +71,22 @@ text-transform: uppercase;
     height: 300px;
     margin: 20% 30%;
     text-align: center;
+    margin-top:1000;
 }
 .welcome-text h1{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-size: 170px;
+    font-size: 70px;
+    margin-right: 10;
+    font-size: px;
+    margin-top: 100;
 }
 .welcome-text h2{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 30px;
 }
 .welcome-text a{
     border: 1px solid #fff;
@@ -86,9 +94,10 @@ text-transform: uppercase;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     color: #fff;
+    margin-right: 10;
 }
 .welcome-text a:hover{
     background: #fff;
@@ -98,9 +107,7 @@ text-transform: uppercase;
 /*resposive*/
 
 @media (max-width:600px){
-    .wrapper {
-width: 100%;
-}
+    .wrapper {width: 100%;float: left;}
 .logo {
 float: none;
 width: 50%;
@@ -110,10 +117,7 @@ margin: auto;
 img {
 width: ;
 }
-.nav-area {
-float: none;
-margin-top: 0;
-}
+.nav-area {float: right;margin-top: 100;}
     .nav-area li a {
 padding: 5px;
 font-size: 11px;
@@ -126,9 +130,7 @@ width: 100%;
 height: auto;
 margin: 30% 0;
 }
-    .welcome-text h1 {
-font-size: 30px;
-}
+    .welcome-text h1 {font-size: 80px;}
 }
 .mybody{
 
